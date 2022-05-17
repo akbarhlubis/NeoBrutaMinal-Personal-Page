@@ -260,4 +260,7 @@ img.profile:hover {
     box-shadow: 5px 5px 0px #000000;
     transform: rotate(-3.21deg); 
   }
+  img.profile{
+    width: 80%;
+  }
 }
