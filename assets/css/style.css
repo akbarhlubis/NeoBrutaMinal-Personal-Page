@@ -9,6 +9,8 @@ body {
     background-repeat: repeat;
     background-attachment: scroll;
     background-size: 90rem;
+    animation: zoomInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1.5s; /* don't forget to set a duration! */
 }
 
 /* Untuk bagian navbar */
