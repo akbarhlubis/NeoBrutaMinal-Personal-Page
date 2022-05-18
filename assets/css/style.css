@@ -313,4 +313,7 @@ img.profile:hover {
   img.profile {
     width: 80%;
   }
+  #typed{
+    font-size:larger;
+  }
 }
