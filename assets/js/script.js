@@ -1,5 +1,5 @@
 var typed = new Typed("#typed", {
-  strings: ["Welcome to my personal Website"],
+  strings: ["Welcome to my personal website"],
   typeSpeed: 110,
   startDelay: 500,
   loop: true,
@@ -23,3 +23,5 @@ function closePop(e) {
     popup.style.display = "none";
   }
 }
+
+document.getElementById('greeting').innerHTML = "Good " + [ "morning", "morning", "morning", "morning", "morning", "morning", "morning", "morning", "morning", "morning", "morning", "morning", "afternoon", "afternoon", "afternoon", "afternoon", "afternoon", "afternoon", "evening", "evening", "evening", "evening", "evening", "evening"][(new Date).getHours()];

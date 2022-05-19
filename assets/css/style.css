@@ -199,7 +199,7 @@ span.pill {
   margin-top: 1rem;
 }
 
-i.bi:hover {
+em.bi:hover {
   color: #ff5050;
   transition: 0.5s ease-in-out;
 }
@@ -269,7 +269,7 @@ img.profile:hover {
 
   }
 
-  .hamburger i.bi:hover{
+  .hamburger em.bi:hover{
     box-shadow: 3px 2px 0px #000000;
   }
 
