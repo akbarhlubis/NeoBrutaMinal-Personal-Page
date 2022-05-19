@@ -49,6 +49,42 @@ nav {
   transition: 0.2s ease;
 }
 
+.btn:active{
+    transform: scale(0.9);
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .popcard {
+    background-color: white;
+    margin: 10% auto;
+    padding: 40px;
+    width: 50%;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 15px 0 black;
+    animation: popup 0.5s;
+  }
+  
+  @keyframes popup {
+    from {
+      opacity: 0;
+    }
+    to { 
+      opacity: 1;
+    }
+  }
+
 a:hover {
   color: #121212;
   transition: 1s ease;
