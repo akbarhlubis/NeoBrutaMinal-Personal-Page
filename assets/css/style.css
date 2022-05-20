@@ -199,6 +199,9 @@ span.pill {
   margin-top: 1rem;
 }
 
+em{
+  margin-right: 10px;
+}
 em.bi:hover {
   color: #ff5050;
   transition: 0.5s ease-in-out;
@@ -333,6 +336,9 @@ img.profile:hover {
     color: #bdc0db;
   }
 
+  em{
+    margin-right: 6px;
+  }
   span.pill {
     gap: 10px;
     margin-right: 10px;
