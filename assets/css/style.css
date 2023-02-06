@@ -39,6 +39,7 @@ nav {
 .btn-nav {
   display: flex;
   height: auto;
+  transition: 0.2s ease;
 }
 
 .btn:hover {
@@ -51,6 +52,7 @@ nav {
 
 .btn:active{
     transform: scale(0.9);
+    transition: 0.2s ease;
   }
 
   .popup {
@@ -226,6 +228,7 @@ img.profile {
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  transition: 0.2s;
 }
 
 img.profile:hover {
@@ -263,13 +266,13 @@ img.profile:hover {
   }
 
   input[type=checkbox]:checked~.btn-nav {
-    display: block;
+    display: flex;
+    flex-direction:column;
   }
 
   .hamburger {
     display: block;
     color: white;
-
   }
 
   .hamburger em.bi:hover{
@@ -280,14 +283,11 @@ img.profile:hover {
     background-color: #2c2c2c;
     align-items: center;
     display: none;
-    flex-direction: center;
-    justify-content: center;
     position: absolute;
     right: 0;
     left: 0;
     text-align: center;
     padding: 16px 0;
-    transition: 1s ease;
   }
 
   header.hero {
